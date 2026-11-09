@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://localhost:3000/api/laundry/services
+description: ""
+url: http://localhost:3000/api/laundry/services
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Cuci Reguler\",\r
+
+    \    \"price\": \"5000\",\r
+
+    \    \"unit\": \"kg\"\r
+
+    \    \r
+
+    }"
+order: 1000
